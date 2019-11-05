@@ -30,7 +30,7 @@
 
 
             <EditText
-                android:id="@+id/et1"
+                android:id="@+id/et_codigo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -49,7 +49,7 @@
 
                 />
     <EditText
-        android:id="@+id/et2"
+        android:id="@+id/et_descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese la descripción"
@@ -66,7 +66,7 @@
         android:layout_marginLeft="15dp"
         />
     <EditText
-        android:id="@+id/et3"
+        android:id="@+id/et_precio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese el precio"
@@ -94,14 +94,14 @@
         />
 
             <Button
-                android:id="@+id/btnGuardar"
+                android:id="@+id/btn_guardar"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btnguardar"
                 android:drawableRight="@drawable/check"
                 android:drawablePadding="-110dp"
-                android:onClick="alta"
+
                 android:paddingRight="100dp"
                 android:shadowColor="#A8A8A8"
                 android:shadowDx="0"
@@ -112,14 +112,13 @@
                 android:textColor="#FFFFFF"
                 android:textSize="15dp" />
     <Button
-        android:id="@+id/btnConsultar1"
+        android:id="@+id/btn_consultaCodigo"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
         android:text="Consultar Código"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:onClick="Consultar1"
         android:textColor="#FFFFFF"
         android:background="@drawable/btncodigo"
         android:shadowColor="#A8A8A8"
@@ -131,14 +130,13 @@
         android:drawablePadding="-110dp"
         />
     <Button
-        android:id="@+id/btnConsultar2"
+        android:id="@+id/btn_consultaDescripcion"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
         android:text="Consultar descripción"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:onClick="consultar2"
         android:textColor="#FFFFFF"
         android:background="@drawable/btndescripcion"
         android:shadowColor="#A8A8A8"
@@ -150,14 +148,13 @@
         android:drawablePadding="-90dp"
         />
     <Button
-        android:id="@+id/btnBorrar"
+        android:id="@+id/btn_eliminar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
         android:text="Borrar"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:onClick="Borrar"
         android:textColor="#FFFFFF"
         android:background="@drawable/btncodigo"
         android:shadowColor="#A8A8A8"
@@ -169,14 +166,13 @@
         android:drawablePadding="-110dp"
         />
     <Button
-        android:id="@+id/btnEditar"
+        android:id="@+id/btn_actualizar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
         android:text="Editar"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:onClick="Editar"
         android:textColor="#FFFFFF"
         android:background="@drawable/btncodigo"
         android:shadowColor="#A8A8A8"
